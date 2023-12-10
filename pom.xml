@@ -45,6 +45,13 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- to use bootstrap.yml configurations -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+			<version>4.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
